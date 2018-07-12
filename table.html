@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration </title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<body>
+    <h1 align="center">
+        <u> REGISTRATION </u>
+    </h1>
+    NAME:
+    <input type="text" id="name" border="2" />
+    <br/>
+    <br/> AGE:&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="number" id="age" border="2">
+    <br/>
+    <br/>
+    <button onclick="addRow();" style="background-color: rgb(194, 226, 226);">SUBMIT</button>
+    <br/>
+    <br/>
+    <h2 style="color:black">
+        <u>TABLE</u>
+    </H2>
+    <!-- <a href="new_tab.html">
+        <button>NEW TAB</button> -->
+    </a>
+    <table align="left" border="3" style="background-color: rgb(185, 231, 147);">
+        <col width="110">
+        <col width="60">
+        <tr>
+            <th>NAME</th>
+            <th>AGE</th>
+            <th> VOWEL IN NAME</th>
+            <th>CHECK</th>
+        </tr>
+    </table>
+
+
+    <div class="bg-modal">
+        <div class="modal-content">
+
+            <div class="close">+</div>
+            <div class="pop" id="pop-up">
+                <h4>
+
+                </h4>
+            </div>
+</body>
+<script src="valid.js"></script>
+
+</html>
